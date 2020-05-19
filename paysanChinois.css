@@ -1,0 +1,34 @@
+body {
+    color:  #3e312e ;
+  }
+table {
+    border-collapse: collapse;
+}
+  
+table, td, th {
+    border: 1px dashed black;
+}
+.infobulle {
+    position: relative;  /* les .infobulle deviennent référents */
+    cursor: help;
+}
+p {
+    line-height: 1.5;
+}
+h1 {
+  color: green;
+}
+a {
+    text-decoration: underline;
+    color: #a00;
+  }
+  a:visited {
+    color: #844;
+  }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+    background: #800;
+  }
+
+
