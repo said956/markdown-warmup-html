@@ -1,0 +1,57 @@
+/* css doc guide typo said */
+
+@font-face 
+{
+    font-family: 'Open_Sans';
+    src: url('Open_Sans/OpenSans-regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('Droitsans/DroidSans-webfont.eot');
+    src: url('Droitsans/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Droitsans/DroidSans-webfont.woff') format('woff'),
+         url('Droitsans/DroidSans-webfont.ttf') format('truetype'),
+         url('Droitsans/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    color:  ;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 140);
+    font-family: 'Open_Sans', 'Arial', sans-serif;
+}
+h1 {
+    background-color: crimson;
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+    padding-left: 250px;
+    border:dashed 3px black;
+    border-radius:5px;
+}
+.sstitre {
+    background-color: rgb(156, 60, 79);
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+    padding-left: 250px;
+}
+.imgsstitre {
+    padding-left: 250px;
+}
+article h3 {
+    text-decoration: 3px underline dotted green;
+}
+a {
+    text-decoration: underline;
+    color: #a00;
+  }
+  a:visited {
+    color: #844;
+  }
+  a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: white;
+    background: #800;
+  }
